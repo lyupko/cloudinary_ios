@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63C26A691EB0660800D5AED4 /* Cloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 723E72371642D295004CFB6E /* Cloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63C26A6A1EB0663200D5AED4 /* NSDictionary+CLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFFE0A17250CA600005AC9 /* NSDictionary+CLUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63C26A6B1EB0663200D5AED4 /* NSString+CLURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EFFE0C17250CA600005AC9 /* NSString+CLURLEncoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63C26A6C1EB0663200D5AED4 /* CLCloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C80BF163885C7003FB3FB /* CLCloudinary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63C26A6D1EB0663200D5AED4 /* CLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C80E916394BAA003FB3FB /* CLTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63C26A6E1EB0663200D5AED4 /* CLLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 721E57CE1BB555B700F7FDD1 /* CLLayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63C26A6F1EB0663200D5AED4 /* CLUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C8103163A9118003FB3FB /* CLUploader.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63C26A701EB0663200D5AED4 /* CLEagerTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 723C8106163AB193003FB3FB /* CLEagerTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		721E57D01BB555B700F7FDD1 /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 721E57CF1BB555B700F7FDD1 /* CLLayer.m */; };
 		72222DD618D2FCAF00780A5A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72222DD518D2FCAF00780A5A /* XCTest.framework */; };
 		723C80BB163885C7003FB3FB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 723C80BA163885C7003FB3FB /* Foundation.framework */; };
@@ -209,6 +217,24 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		63C26A681EB065CC00D5AED4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63C26A691EB0660800D5AED4 /* Cloudinary.h in Headers */,
+				63C26A6A1EB0663200D5AED4 /* NSDictionary+CLUtilities.h in Headers */,
+				63C26A6B1EB0663200D5AED4 /* NSString+CLURLEncoding.h in Headers */,
+				63C26A6C1EB0663200D5AED4 /* CLCloudinary.h in Headers */,
+				63C26A6D1EB0663200D5AED4 /* CLTransformation.h in Headers */,
+				63C26A6E1EB0663200D5AED4 /* CLLayer.h in Headers */,
+				63C26A6F1EB0663200D5AED4 /* CLUploader.h in Headers */,
+				63C26A701EB0663200D5AED4 /* CLEagerTransformation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		723C80B6163885C7003FB3FB /* Cloudinary */ = {
 			isa = PBXNativeTarget;
@@ -217,6 +243,7 @@
 				723C80B3163885C7003FB3FB /* Sources */,
 				723C80B4163885C7003FB3FB /* Frameworks */,
 				723C80B5163885C7003FB3FB /* CopyFiles */,
+				63C26A681EB065CC00D5AED4 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -387,6 +414,7 @@
 			buildSettings = {
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				DSTROOT = /tmp/Cloudinary.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cloudinary/Cloudinary-Prefix.pch";
@@ -404,6 +432,7 @@
 			buildSettings = {
 				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				DSTROOT = /tmp/Cloudinary.dst;
+				FRAMEWORK_SEARCH_PATHS = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cloudinary/Cloudinary-Prefix.pch";
