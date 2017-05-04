@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63D240B51EBAE48E00CC6668 /* CLCloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A51EBAE48E00CC6668 /* CLCloudinary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240B51EBAE48E00CC6668 /* CLCloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A51EBAE48E00CC6668 /* CLCloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240B61EBAE48E00CC6668 /* CLCloudinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240A61EBAE48E00CC6668 /* CLCloudinary.m */; };
-		63D240B71EBAE48E00CC6668 /* CLEagerTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A71EBAE48E00CC6668 /* CLEagerTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240B71EBAE48E00CC6668 /* CLEagerTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A71EBAE48E00CC6668 /* CLEagerTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240B81EBAE48E00CC6668 /* CLEagerTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240A81EBAE48E00CC6668 /* CLEagerTransformation.m */; };
-		63D240B91EBAE48E00CC6668 /* CLLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A91EBAE48E00CC6668 /* CLLayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240B91EBAE48E00CC6668 /* CLLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A91EBAE48E00CC6668 /* CLLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240BA1EBAE48E00CC6668 /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240AA1EBAE48E00CC6668 /* CLLayer.m */; };
-		63D240BB1EBAE48E00CC6668 /* Cloudinary-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AB1EBAE48E00CC6668 /* Cloudinary-Prefix.pch */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240BB1EBAE48E00CC6668 /* Cloudinary-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AB1EBAE48E00CC6668 /* Cloudinary-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240BC1EBAE48E00CC6668 /* Cloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AC1EBAE48E00CC6668 /* Cloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63D240BD1EBAE48E00CC6668 /* CLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AD1EBAE48E00CC6668 /* CLTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240BD1EBAE48E00CC6668 /* CLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AD1EBAE48E00CC6668 /* CLTransformation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240BE1EBAE48E00CC6668 /* CLTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240AE1EBAE48E00CC6668 /* CLTransformation.m */; };
-		63D240BF1EBAE48E00CC6668 /* CLUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AF1EBAE48E00CC6668 /* CLUploader.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240BF1EBAE48E00CC6668 /* CLUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AF1EBAE48E00CC6668 /* CLUploader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240C01EBAE48E00CC6668 /* CLUploader.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240B01EBAE48E00CC6668 /* CLUploader.m */; };
-		63D240C11EBAE48E00CC6668 /* NSDictionary+CLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240B11EBAE48E00CC6668 /* NSDictionary+CLUtilities.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240C11EBAE48E00CC6668 /* NSDictionary+CLUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240B11EBAE48E00CC6668 /* NSDictionary+CLUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240C21EBAE48E00CC6668 /* NSDictionary+CLUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240B21EBAE48E00CC6668 /* NSDictionary+CLUtilities.m */; };
-		63D240C31EBAE48E00CC6668 /* NSString+CLURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240B31EBAE48E00CC6668 /* NSString+CLURLEncoding.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240C31EBAE48E00CC6668 /* NSString+CLURLEncoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240B31EBAE48E00CC6668 /* NSString+CLURLEncoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240C41EBAE48E00CC6668 /* NSString+CLURLEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240B41EBAE48E00CC6668 /* NSString+CLURLEncoding.m */; };
 		63D240C91EBAE4F800CC6668 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D240C81EBAE4F800CC6668 /* Security.framework */; };
 		63D240CB1EBAE50100CC6668 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63D240CA1EBAE50100CC6668 /* Foundation.framework */; };
