@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		63D2409F1EBAE41B00CC6668 /* Cloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D2409D1EBAE41B00CC6668 /* Cloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240B51EBAE48E00CC6668 /* CLCloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A51EBAE48E00CC6668 /* CLCloudinary.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		63D240B61EBAE48E00CC6668 /* CLCloudinary.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240A61EBAE48E00CC6668 /* CLCloudinary.m */; };
 		63D240B71EBAE48E00CC6668 /* CLEagerTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A71EBAE48E00CC6668 /* CLEagerTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -15,7 +14,7 @@
 		63D240B91EBAE48E00CC6668 /* CLLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240A91EBAE48E00CC6668 /* CLLayer.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		63D240BA1EBAE48E00CC6668 /* CLLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240AA1EBAE48E00CC6668 /* CLLayer.m */; };
 		63D240BB1EBAE48E00CC6668 /* Cloudinary-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AB1EBAE48E00CC6668 /* Cloudinary-Prefix.pch */; settings = {ATTRIBUTES = (Private, ); }; };
-		63D240BC1EBAE48E00CC6668 /* Cloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AC1EBAE48E00CC6668 /* Cloudinary.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		63D240BC1EBAE48E00CC6668 /* Cloudinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AC1EBAE48E00CC6668 /* Cloudinary.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63D240BD1EBAE48E00CC6668 /* CLTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AD1EBAE48E00CC6668 /* CLTransformation.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		63D240BE1EBAE48E00CC6668 /* CLTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 63D240AE1EBAE48E00CC6668 /* CLTransformation.m */; };
 		63D240BF1EBAE48E00CC6668 /* CLUploader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63D240AF1EBAE48E00CC6668 /* CLUploader.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -30,7 +29,6 @@
 
 /* Begin PBXFileReference section */
 		63D2409A1EBAE41B00CC6668 /* Cloudinary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cloudinary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63D2409D1EBAE41B00CC6668 /* Cloudinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cloudinary.h; sourceTree = "<group>"; };
 		63D2409E1EBAE41B00CC6668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63D240A51EBAE48E00CC6668 /* CLCloudinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CLCloudinary.h; path = Sources/Cloudinary/CLCloudinary.h; sourceTree = SOURCE_ROOT; };
 		63D240A61EBAE48E00CC6668 /* CLCloudinary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CLCloudinary.m; path = Sources/Cloudinary/CLCloudinary.m; sourceTree = SOURCE_ROOT; };
@@ -98,7 +96,6 @@
 				63D240AE1EBAE48E00CC6668 /* CLTransformation.m */,
 				63D240AF1EBAE48E00CC6668 /* CLUploader.h */,
 				63D240B01EBAE48E00CC6668 /* CLUploader.m */,
-				63D2409D1EBAE41B00CC6668 /* Cloudinary.h */,
 				63D2409E1EBAE41B00CC6668 /* Info.plist */,
 			);
 			path = Cloudinary;
@@ -139,15 +136,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63D240BC1EBAE48E00CC6668 /* Cloudinary.h in Headers */,
 				63D240BB1EBAE48E00CC6668 /* Cloudinary-Prefix.pch in Headers */,
 				63D240BD1EBAE48E00CC6668 /* CLTransformation.h in Headers */,
 				63D240C31EBAE48E00CC6668 /* NSString+CLURLEncoding.h in Headers */,
-				63D2409F1EBAE41B00CC6668 /* Cloudinary.h in Headers */,
 				63D240B71EBAE48E00CC6668 /* CLEagerTransformation.h in Headers */,
 				63D240B51EBAE48E00CC6668 /* CLCloudinary.h in Headers */,
 				63D240C11EBAE48E00CC6668 /* NSDictionary+CLUtilities.h in Headers */,
 				63D240BF1EBAE48E00CC6668 /* CLUploader.h in Headers */,
-				63D240BC1EBAE48E00CC6668 /* Cloudinary.h in Headers */,
 				63D240B91EBAE48E00CC6668 /* CLLayer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -321,7 +317,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
